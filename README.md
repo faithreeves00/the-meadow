@@ -4,4 +4,4 @@ This is a one-page website for The Meadow, a boutique florist specializing in fi
 1. clone repository
 2. run 'npm install' or 'yarn install' ?
 3. run 'npm run dev'
-4. go to localhost
+4. naviagate to http://localhost:5173/
