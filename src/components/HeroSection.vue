@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center justify-between lg:pt-15">
+  <div class="flex items-center justify-center lg:py-16 lg:gap-x-17">
     <img
       src="../assets/meadow.png"
       alt="hero"
