@@ -10,7 +10,9 @@
     /* Colors */
     --color-teal-500: #697B7C;
     --color-teal-600: #4B5B5C;
-    --color-cream-500: #FCFAF6;
+    --color-neutral-500: #FCFAF6;
+
+    
 
     /* Typography */
     --base: max(1rem, 16px);

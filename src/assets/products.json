@@ -1,0 +1,32 @@
+[
+    {
+      "id": 1,
+      "name": "The Sunset",
+      "price": "50",
+      "image": "pink_flowers.png"
+    },
+    {
+      "id": 2,
+      "name": "The Sunset",
+      "price": "50",
+      "image": "pink_flowers.png"
+    },
+    {
+      "id": 3,
+      "name": "The Sunset",
+      "price": "50",
+      "image": "pink_flowers.png"
+    },
+    {
+      "id": 4,
+      "name": "The Sunset",
+      "price": "50",
+      "image": "pink_flowers.png"
+    },
+    {
+      "id": 5,
+      "name": "The Sunset",
+      "price": "50",
+      "image": "pink_flowers.png"
+    }
+]
