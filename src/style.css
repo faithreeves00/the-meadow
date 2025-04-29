@@ -1,24 +1,64 @@
-@import 'tailwindcss' layer(base);
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
 @import 'tailwindcss';
 
-@layer utilities {
-  :root {
-    --tw-bg-opacity: 1;
-    --tw-text-opacity: 1;
-    --tw-border-opacity: 1;
-  }
+:root {
+
+    /* Colors */
+    --color-teal-500: #697B7C;
+    --color-teal-600: #4B5B5C;
+    --color-cream-500: #FCFAF6;
+
+    /* Typography */
+    --base: max(1rem, 16px);
+    --spacing: calc(var(--base) * 0.25);
+    --text-xs: calc(var(--base) * 0.75);
+    --text-sm: calc(var(--base) * 0.875);
+    --text-base: var(--base);
+    --text-lg: calc(var(--base) * 1.125);
+    --text-xl: calc(var(--base) * 1.25);
+    --text-2xl: calc(var(--base) * 1.5);
+    --text-3xl: calc(var(--base) * 1.875);
+    --text-4xl: calc(var(--base) * 2.25);
+    --text-5xl: calc(var(--base) * 3);
+    --text-6xl: calc(var(--base) * 3.75);
+    --text-7xl: calc(var(--base) * 4.5);
+    --text-8xl: calc(var(--base) * 6);
+    --text-9xl: calc(var(--base) * 8);
 }
-@layer base {
-  html {
-    @apply bg-gray-100;
-  }
 
-  body {
-    @apply text-gray-900;
-  }
+/* Fonts */
+.font-italianno {
+  font-family: 'Italianno';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/italianno/v17/dg4n_p3sv6gCJkwzT6RXh5wocwM.woff2) format('woff2');
+}
 
-  a {
-    @apply text-blue-600;
-  }
+.font-italiana {
+  font-family: 'Italiana', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/italiana/v20/QldNNTtLsx4E__B0XQmWaXw.woff2) format('woff2');
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/inter/v3/UcC1xg.woff2) format('woff2');
+}
+
+.font-inter-medium {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  src: url(https://fonts.gstatic.com/s/inter/v3/UcC1xg.woff2) format('woff2');
 }
