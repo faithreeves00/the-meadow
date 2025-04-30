@@ -14,7 +14,7 @@ defineProps({
     <img
     :src="image"
       alt="flower"
-      class="aspect-auto w-[202px]"
+      class="aspect-auto w-[202px] max-h-[236px]"
     />
     <div class="flex justify-between items-center w-full">
       <div class="flex flex-col text-teal-500">
