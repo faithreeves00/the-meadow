@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col items-center justify-start reverse items-start py-8 gap-y-8 md:py-15 md:gap-x-17 md:flex-row lg:flex-row lg:py-16 lg:gap-x-17">
     <img
-      src="../assets/meadow.png"
+      src="../assets/images/meadow.png"
       alt="hero"
       class="max-w-[355px] rounded-xl"
     />

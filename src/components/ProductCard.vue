@@ -25,9 +25,9 @@ defineProps({
       <button
         class="flex border-2 border-teal-500 rounded-full w-[44px] h-[44px] items-center justify-center bg-transparent text-teal-500 hover:bg-teal-500 hover:text-white"
       >
-        <img src="../assets/teal_shopping_cart.svg" alt="add to cart" class="group-hover:hidden"/>
+        <img src="../assets/icons/teal_shopping_cart.svg" alt="add to cart" class="group-hover:hidden"/>
         <img
-          src="../assets/cream_shopping_cart.svg"
+          src="../assets/icons/cream_shopping_cart.svg"
           alt="add to cart"
           class="hidden group-hover:block"/>
       </button>

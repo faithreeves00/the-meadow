@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import ProductCard from "./ProductCard.vue";
-import products from "../assets/products.json";
+import products from "../assets/data/products.json";
 
 function resolveImagePath(imagePath: any) {
-  return new URL(`../assets/${imagePath}`, import.meta.url).href;
+  return new URL(`../assets/images/${imagePath}`, import.meta.url).href;
 }
 </script>
 
