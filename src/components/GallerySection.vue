@@ -8,18 +8,18 @@ function resolveImagePath(imagePath: any) {
 </script>
 
 <template>
-  <div>
-    <div class="text-neutral-500 flex flex-col text-left sm:gap-y-4 lg:gap-y-7">
-      <text class="font-italiana sm:text-4xl lg:text-5xl"
+  <div class="py-8 lg:py-1">
+    <div class="text-neutral-500 flex flex-col text-left gap-y-4 lg:gap-y-7">
+      <text class="font-italiana text-4xl md:text-4xl lg:text-5xl"
         >Our Arrangements</text
       >
-      <text class="font-inter sm:text-base lg:text-xl"
+      <text class="font-inter text-base md:text-base lg:text-xl"
         >Explore our selection of thoughtfully designed floral
         arrangements.</text
       >
     </div>
     <div
-      class="grid grid-cols-2 gap-y-13 py-13 lg:grid-cols-3 items-start justify-items-start"
+      class="flex flex-wrap gap-13 py-11 md:py-11 lg:gap-y-7"
     >
       <ProductCard
         v-for="product in products"

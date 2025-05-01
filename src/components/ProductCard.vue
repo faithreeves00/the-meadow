@@ -7,7 +7,7 @@ defineProps({
 </script>
 
 <template>
-    <div class="bg-neutral-500 w-[265px] h-[342px] px-7 py-2 rounded-2xl">
+    <div class="flex justify-center bg-neutral-500 w-[265px] h-[342px] px-7 py-2 rounded-2xl drop-shadow-lg">
   <div
     class="flex flex-col items-center justify-center gap-y-[22px]"
   >
@@ -18,7 +18,7 @@ defineProps({
     />
     <div class="flex justify-between items-center w-full">
       <div class="flex flex-col text-teal-500">
-        <text class="font-inter-medium text-xl">{{ name }}</text>
+        <text class="font-inter text-xl">{{ name }}</text>
         <text class="font-inter text-base">${{ price }}</text>
       </div>
       <div class="group">

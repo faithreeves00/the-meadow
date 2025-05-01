@@ -7,14 +7,14 @@ import PageFooter from './components/PageFooter.vue';
 
 <template>
 
-  <div class="bg-neutral-500 sm:p-6 sm:py-2 lg:px-10 lg:py-6">
+  <div class="bg-neutral-500 p-6 py-4 lg:px-10 lg:py-6">
     <Heading/>
     <HeroSection/>
   </div>
-  <div class="bg-teal-500 sm:p-6 lg:px-10 lg:py-16">
+  <div class="bg-teal-500 p-6 lg:px-10 lg:py-16">
   <GallerySection/>
   </div>
-  <div class="bg-neutral-500 sm:p-12 lg:px-10 lg:py-6">
+  <div class="bg-neutral-500 p-12 lg:px-10 lg:py-10">
     <PageFooter/>
   </div>
 
