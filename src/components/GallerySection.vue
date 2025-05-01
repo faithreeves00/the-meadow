@@ -20,7 +20,10 @@ function resolveImagePath(imagePath: string): string {
     </div>
 
     <!-- Product Cards -->
-    <div v-if="products.length" class="flex flex-wrap gap-13 py-11 md:py-11 lg:gap-y-7">
+    <div
+      v-if="products.length"
+      class="flex flex-wrap gap-13 py-11 md:py-11 lg:gap-y-7"
+    >
       <ProductCard
         v-for="product in products"
         :key="product.id"
