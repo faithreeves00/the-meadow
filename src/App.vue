@@ -1,7 +1,7 @@
 <script setup lang="ts">
-import Heading from "./components/Heading.vue";
+import Heading from "./components/header/Heading.vue";
 import HeroSection from "./components/HeroSection.vue";
-import GallerySection from "./components/GallerySection.vue";
+import GallerySection from "./components/gallery/GallerySection.vue";
 import PageFooter from "./components/PageFooter.vue";
 </script>
 

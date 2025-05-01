@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import AddToCartButton from "./AddToCartButton.vue";
-
+import AddToCartButton from './AddToCartButton.vue';
 defineProps({
   name: {
     type: String,
