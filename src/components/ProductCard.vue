@@ -1,38 +1,30 @@
 <script setup lang="ts">
+import ProductImage from "./ProductImage.vue";
+import ProductInfo from "./ProductInfo.vue";
+
 defineProps({
-  name: String,
-  price: String,
-  image: String
+  name: {
+    type: String,
+    required: true,
+  },
+  price: {
+    type: String,
+    required: true,
+  },
+  image: {
+    type: String,
+    required: true,
+  },
 });
 </script>
 
 <template>
-    <div class="flex justify-center bg-neutral-500 w-[265px] h-[342px] px-7 py-2 rounded-2xl drop-shadow-lg">
   <div
-    class="flex flex-col items-center justify-center gap-y-[22px]"
+    class="flex justify-center bg-neutral-500 w-[265px] h-[342px] px-7 py-2 rounded-2xl drop-shadow-lg"
   >
-    <img
-    :src="image"
-      alt="flower"
-      class="aspect-auto w-[202px] max-h-[236px]"
-    />
-    <div class="flex justify-between items-center w-full">
-      <div class="flex flex-col text-teal-500">
-        <text class="font-inter text-xl">{{ name }}</text>
-        <text class="font-inter text-base">${{ price }}</text>
-      </div>
-      <div class="group">
-      <button
-        class="flex border-2 border-teal-500 rounded-full w-[44px] h-[44px] items-center justify-center bg-transparent text-teal-500 hover:bg-teal-500 hover:text-white"
-      >
-        <img src="../assets/icons/teal_shopping_cart.svg" alt="add to cart" class="group-hover:hidden"/>
-        <img
-          src="../assets/icons/cream_shopping_cart.svg"
-          alt="add to cart"
-          class="hidden group-hover:block"/>
-      </button>
+    <div class="flex flex-col items-center justify-center gap-y-[22px]">
+      <ProductImage :image="image" :name="name" />
+      <ProductInfo :name="name" :price="price" />
     </div>
-    </div>
-</div>
   </div>
 </template>
