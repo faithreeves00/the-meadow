@@ -22,7 +22,7 @@ This project was created as part of an assignment to demonstrate both UX design 
    npm run dev
 
 4. Open your browser and navigate to:
-   [http://localhost:5173/]
+  http://localhost:5173/
 
 ---
 
