@@ -1,4 +1,4 @@
-# 🌸 The Meadow – Boutique Florist Website
+# The Meadow – Boutique Florist Website
 
 A one-page, elegant front-end prototype for *The Meadow*, a boutique florist showcasing five unique floral arrangements.
 
