@@ -8,7 +8,7 @@ function resolveImagePath(imagePath: string): string {
 </script>
 
 <template>
-  <div class="py-8 lg:py-1">
+  <div id="gallery" class="py-8 lg:py-1">
     <!-- Section Heading -->
     <div class="text-neutral-500 flex flex-col text-left gap-y-4 lg:gap-y-7">
       <h2 class="font-italiana text-4xl md:text-4xl lg:text-5xl">

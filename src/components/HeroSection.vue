@@ -1,3 +1,16 @@
+<script>
+export default {
+  methods: {
+    scrollToGallery() {
+      const gallery = document.getElementById("gallery");
+      if (gallery) {
+        gallery.scrollIntoView({ behavior: "smooth" });
+      }
+    },
+  },
+};
+</script>
+
 <template>
   <div
     class="flex flex-col items-center justify-start reverse items-start py-8 gap-y-8 md:py-15 md:gap-x-17 md:flex-row lg:flex-row lg:py-16 lg:gap-x-17"
@@ -26,6 +39,7 @@
 
       <!-- Hero Button -->
       <button
+        @click="scrollToGallery"
         class="drop-shadow-lg self-start px-4.5 py-2 text-white bg-teal-500 hover:bg-teal-600 rounded-full font-inter text-base lg:w-[210px] lg:h-[45px]"
       >
         Explore the Collection
