@@ -18,5 +18,16 @@ It highlights five curated floral arrangements with clean layouts and delicate t
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/the-meadow.git
+   git clone https://github.com/faithreeves00/the-meadow.git
    cd the-meadow
+   
+2. Install dependencies:
+```bash
+npm install
+
+3. Start the development server:
+```bash
+npm run dev
+
+4. Open your browser and navigate to:
+[http://localhost:5173/]
