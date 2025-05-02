@@ -6,7 +6,7 @@ This project was created as part of an assignment to demonstrate both UX design 
 
 ---
 
-## 🖼 Design
+## Design
 Figma Link: [https://www.figma.com/design/o9ZFGxXtiyHpFEGcirobp6/The-Meadow---Gun.io?node-id=0-1&t=rbpC2OJvXGeuJ6SR-1]
 
 The design focuses on an elegant, visually appealing experience that is intuitive and easy to navigate.  
@@ -14,7 +14,7 @@ It highlights five curated floral arrangements with clean layouts and delicate t
 
 ---
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 1. Clone the repository:
    ```bash
@@ -30,4 +30,5 @@ npm install
 npm run dev
 
 4. Open your browser and navigate to:
+```bash
 [http://localhost:5173/]
